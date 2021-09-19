@@ -1,10 +1,10 @@
-# v4l2
+# v4l
 
 This project was bootstrapped by [create-neon](https://www.npmjs.com/package/create-neon).
 
-## Installing v4l2
+## Installing v4l
 
-Installing v4l2 requires a [supported version of Node and Rust](https://github.com/neon-bindings/neon#platform-support).
+Installing v4l requires a [supported version of Node and Rust](https://github.com/neon-bindings/neon#platform-support).
 
 You can install the project with npm. In the project directory, run:
 
@@ -14,7 +14,7 @@ $ npm install
 
 This fully installs the project, including installing any dependencies and running the build.
 
-## Building v4l2
+## Building v4l
 
 If you have already installed the project and only want to run the build, run:
 
@@ -24,9 +24,9 @@ $ npm run build
 
 This command uses the [cargo-cp-artifact](https://github.com/neon-bindings/cargo-cp-artifact) utility to run the Rust build and copy the built library into `./index.node`.
 
-## Exploring v4l2
+## Exploring v4l
 
-After building v4l2, you can explore its exports at the Node REPL:
+After building v4l, you can explore its exports at the Node REPL:
 
 ```sh
 $ npm install
@@ -70,7 +70,7 @@ Runs the unit tests by calling `cargo test`. You can learn more about [adding te
 The directory structure of this project is:
 
 ```
-v4l2/
+v4l/
 ├── Cargo.toml
 ├── README.md
 ├── index.node
